@@ -47,4 +47,10 @@ bash eval_LACT_3d.sh
 If you find our work interesting, please consider citing
 
 ```
-```
+```bibtex
+@inproceedings{alkhouriNeuIPS24,
+author    = {Alkhouri, Ismail and Linag, Shijun and Bell, Evan and Qu, Qing and Wang, Rongrong and Ravishankar, Saiprasad },
+  title     = {Image Reconstruction Via Autoencoding Sequential Deep Image Prior},
+  booktitle   = {Advances in neural information processing systems (NeurIPS)},
+  year      = {2024}
+}
