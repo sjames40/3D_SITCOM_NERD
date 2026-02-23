@@ -47,10 +47,13 @@ bash eval_LACT_3d.sh
 If you find our work interesting, please consider citing
 
 ```
-```bibtex
-@inproceedings{alkhouriNeuIPS24,
-author    = {Alkhouri, Ismail and Linag, Shijun and Bell, Evan and Qu, Qing and Wang, Rongrong and Ravishankar, Saiprasad },
-  title     = {Image Reconstruction Via Autoencoding Sequential Deep Image Prior},
-  booktitle   = {Advances in neural information processing systems (NeurIPS)},
-  year      = {2024}
+@misc{liang2025nerdnetworkregularizeddiffusionsampling,
+      title={NERD: Network-Regularized Diffusion Sampling For 3D Computed Tomography}, 
+      author={Shijun Liang and Ismail Alkhouri and Qing Qu and Rongrong Wang and Saiprasad Ravishankar},
+      year={2025},
+      eprint={2511.14680},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2511.14680}, 
 }
+```
