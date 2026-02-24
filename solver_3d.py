@@ -45,6 +45,7 @@ class Diffusion(object):
             )
         self.device = device
 
+        # Diffusion noise schedule
         self.model_var_type = config.model.var_type
         betas = get_beta_schedule(
             beta_schedule=config.diffusion.beta_schedule,
@@ -127,6 +128,7 @@ class Diffusion(object):
         
         img_shape = (x_orig.shape[0], config.data.channels, config.data.image_size, config.data.image_size)
         
+        # CT forward model A and adjoint A^T
         if self.args.deg == "SV-CT":
             A_funcs = CT(img_width=256, radon_view=self.args.Nview, uniform=True, circle=False, device=config.device)
         elif self.args.deg == "LA-CT":
